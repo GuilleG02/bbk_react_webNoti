@@ -1,0 +1,17 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;       /* altura completa de la ventana */
+  margin: 0;
+  padding: 0;
+  background-color: antiquewhite;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;            /* que crezca para empujar el footer */
+  width: 100%;
+  max-width: 1000px;
+}

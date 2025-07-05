@@ -1,0 +1,16 @@
+.footer {
+  width: 100%;
+  max-width: 1000px;
+  margin: 1rem 0;
+  padding: 1rem 2rem;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  text-align: center;
+
+  p {
+    margin: 0;
+    color: #555;
+    font-weight: 500;
+  }
+}
